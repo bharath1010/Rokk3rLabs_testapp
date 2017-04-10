@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ConfirmationViewController : UIViewController
+{
+    IBOutlet UILabel *total;
+}
+@property(nonatomic,retain) NSMutableArray *products;
+@property(nonatomic,retain) NSMutableArray *price;
 
+@property(nonatomic,retain) NSString *totalAmount;
 @end
